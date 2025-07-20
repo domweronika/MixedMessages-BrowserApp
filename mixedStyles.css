@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Supernatural_Knight';
+  src: url('fonts/Supernatural_Knight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'IBMPlexSerif-Medium';
+  src: url('fonts/IBMPlexSerif-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ultimate Savage';
+  src: url('fonts/Ultimate\ Savage.ttf') format('truetype');
+}
+html {
+  background-image: url(/media/background.jpg);
+  background-size: cover; /* image covers entire background */
+  background-attachment: fixed; /* background doesnt move whilst scrolling */
+  background-repeat: no-repeat; /* image isnt repeated */
+  background-position: center; 
+  max-width: 100%;
+  
+}
+
+header {
+  text-align: center;
+  color: rgb(41, 177, 246);
+  font-family: 'Supernatural_Knight';
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.445);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(42, 166, 244);
+  max-height: 15%;
+  text-decoration: underline;
+}
+
+body {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh; /* vh = viewport height */
+  
+}
+#quoteButton {
+  background-color: rgba(0, 0, 0, 0.445);
+  border-radius: 10px;
+  color: rgb(41, 177, 246);
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Ultimate Savage';
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top:5px;
+  border: none;
+  
+}
+span {
+  color: rgb(220, 51, 172);
+}
+span:hover {
+  color: rgb(41, 177, 246);
+}
+#quoteButton:active {
+  background-color: rgba(0, 0, 0, 0.645);
+  box-shadow: 0 4px 8px rgb(42, 166, 244);
+}
+#quoteDisplay {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.65rem;
+  text-align: center;
+  font-family: 'Supernatural_Knight';
+  font-weight: 700;
+  max-width: 70%;
+  text-wrap: wrap;
+  color: rgb(220, 51, 172);
+  background-color: rgba(0, 0, 0, 0.445);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(186, 77, 115);
+}
+
+#imageGallery {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+  max-width: 75%;
+  padding: 20px;
+  max-height: 35%;
+  
+}
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+  opacity: 0.7; 
+  box-shadow: 0 4px 8px rgb(186, 77, 115);
+}
+img:hover {
+  opacity: 1; 
+  transform: scale(1.15); 
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+

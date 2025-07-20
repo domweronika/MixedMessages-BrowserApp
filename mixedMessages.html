@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Messages</title>
+    <link rel="stylesheet" href="/mixedStyles.css" />
+  </head>
+  <header><h1>The Supernatural Quote Generator</h1></header>
+  <body>
+    <div id="imageGallery">
+      <img src="./media/samdeancafe.jpg" alt="Sam and Dean sitting in a cafe"/>
+      <img src="./media/deanschevy.jpg" alt="Deans car - a 1960s chevrolet impala"/>
+      <img src="./media/pentagram.jpg" alt="Pentagram"/>
+      <img src="./media/supernatural musci.jpg"
+         alt="Collection of classic rock music that Dean Winchester listens to" />
+    </div>
+    <!--A button with the ID quoteButton 
+    that runs the JavaScript function 
+    generateQuote() when clicked. -->
+    <button id="quoteButton" onclick="generateQuote()">
+      Generate <span>Quote</span>
+    </button>
+    <div id="quoteDisplay">
+      <p>Click Generate to button to generate your first quote</p>
+    </div>
+
+    <script src="/mixedMessagesBrowser.js"></script>
+  </body>
+</html>
