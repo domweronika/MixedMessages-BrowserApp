@@ -11,7 +11,7 @@
   src: url('fonts/Ultimate\ Savage.ttf') format('truetype');
 }
 html {
-  background-image: url(/media/background.jpg);
+  background-image: url(media/background.jpg);
   background-size: cover; /* image covers entire background */
   background-attachment: fixed; /* background doesnt move whilst scrolling */
   background-repeat: no-repeat; /* image isnt repeated */
