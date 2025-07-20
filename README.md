@@ -6,7 +6,7 @@ A simple one page web application that generates a random quote from the popular
 Displays a 'Supernatural" tv series quote, after you press the 'Generate Quote' button
 
 ## Installation
-None, just access the live website on ```https://domweronika.github.io/MixedMessages-BrowserApp/```
+Just access the live website on [HERE](https://domweronika.github.io/MixedMessages-BrowserApp/)
 
 ## Usage
 Access ```https://domweronika.github.io/MixedMessages-BrowserApp/``` and click generate button to generate a quote from the tv series.
